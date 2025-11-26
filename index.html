@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple OTP form</title>
+</head>
+<body>
+    <form class="otpform">
+        <h2>Enter OTP</h2>
+        <p>
+            Enter the 4-digit code sent to your email address.
+        </p>
+        <div class="otp-container">
+            <input type="text" maxlength="1" class="otpInput"
+            id="otpInput1" required>
+            <input type="text" maxlength="1" class="otpInput"
+            id="otpInput2" required>
+            <input type="text" maxlength="1" class="otpInput"
+            id="otpInput3" required>
+            <input type="text" maxlength="1" class="otpInput"
+            id="otpInput4" required>
+        </div>
+            
+        <button id= "verifyBtn" 
+        class="submit" >Verify</button>
+           
+        <p>Didn't receive the code?</p>
+        <button id="resendOtp" type="button">Resend OTP</button>    
+        <button type="button" id="exiBtn">
+            &#10006
+        </button>
+
+    </form>
+</body>
+</html>
